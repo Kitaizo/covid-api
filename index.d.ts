@@ -3,7 +3,7 @@
  * @param {object} opts         object holding the options
  * @param {string} opts.baseUrl url to use for requests
  */
-export function settings(opts?: {
+ export function settings(opts?: {
     baseUrl: string;
 }): string | false;
 /**
@@ -122,3 +122,19 @@ export namespace apple {
  * @returns {object}                official government data
  */
 export function gov(country: string): Promise<object>;
+
+/**
+ * Retrieve country specific data
+ * @param {object}               opts            object holding the options for that request
+ * @param {string|string[]}      opts.country    country name/s to be queried
+ * @param {boolean}              opts.allowNull  whether to allow null values (true) or automatically transform them to 0 (false)
+ * @param {string}               opts.sort       property name which will be used for sorting
+ * @param {boolean}              opts.strict     whether to use strict name checking or not
+ * @returns {object|object[]}                    country specific data
+ */
+ export function coverage(opts?: {
+    country: string | string[];
+    allowNull: boolean;
+    sort: string;
+    strict: boolean;
+}): Promise<object> | Promise<object[]>;

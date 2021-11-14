@@ -1,6 +1,6 @@
 {
   "name": "covid19-vn",
-  "version": "1.0.10",
+  "version": "1.0.20",
   "description": "Lấy API để nhận thông tin về COVID-19.",
   "keywords": [
     "coronavirus",

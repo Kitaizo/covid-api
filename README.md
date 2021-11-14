@@ -34,7 +34,7 @@ npm i -s covid19-vn
 <!-- Chỉ sử dụng package '@aero/centra'.<br> -->
 
 Tham số **allowNull** hiện có sẵn cho `all`, `countries`, `continents`, `states` và `gov` điểm cuối.<br>
-Covid19-VN sắp cật nhập sẽ thêm tham số `vaccine`
+Covid19-VN đã cật nhập sẽ thêm tham số `vaccine` , `coverage
 
 ## Cách dùng
 
@@ -204,4 +204,15 @@ api.gov().then(console.log)
 
 // in dữ liệu cho một quốc gia cụ thể
 api.gov('austria').then(console.log)
+```
+
+
+### Dữ liệu về số vaccine đã tiêm
+
+```js
+// in ra thông tin tổng số vaccine đã tiêm trên thế giới
+api.vaccine().then(console.log)
+
+// in ra thông tin tổng số vaccine của một quốc gia
+api.coverage({country: 'vietnam'}).then(console.log)
 ```
