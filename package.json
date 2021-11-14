@@ -1,6 +1,6 @@
 {
   "name": "covid19-vn",
-  "version": "1.0.20",
+  "version": "1.0.40",
   "description": "Lấy API để nhận thông tin về COVID-19.",
   "keywords": [
     "coronavirus",
@@ -32,6 +32,6 @@
     "test": "mocha ./index.spec.js --exit --t 90000"
   },
   "author": "DiozVN",
-  "license": "WTFPL",
+  "license": "MIT",
   "types": "./index.d.ts"
 }

@@ -132,9 +132,29 @@ export function gov(country: string): Promise<object>;
  * @param {boolean}              opts.strict     whether to use strict name checking or not
  * @returns {object|object[]}                    country specific data
  */
- export function coverage(opts?: {
-    country: string | string[];
-    allowNull: boolean;
-    sort: string;
-    strict: boolean;
-}): Promise<object> | Promise<object[]>;
+
+//  export function coverage(opts?: {
+//     country: string | string[];
+//     allowNull: boolean;
+//     sort: string;
+//     timeline: object;
+//     strict: boolean;
+// }): Promise<object> | Promise<object[]>;
+
+//  export function vaccine(opts?: {
+//     country: string | string[];
+//     allowNull: boolean;
+//     sort: string;
+//     timeline: object;
+//     strict: boolean;
+// }): Promise<object> | Promise<object[]>;
+
+// ### Dữ liệu về số vaccine đã tiêm [Cật Nhật Mới]
+
+// ```js
+// // in ra thông tin tổng số vaccine đã tiêm trên thế giới
+// api.vaccine().then(console.log)
+
+// // in ra thông tin tổng số vaccine của một quốc gia
+// api.coverage({country: 'vietnam'}).then(console.log)
+// ```

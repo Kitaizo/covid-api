@@ -205,14 +205,3 @@ api.gov().then(console.log)
 // in dữ liệu cho một quốc gia cụ thể
 api.gov('austria').then(console.log)
 ```
-
-
-### Dữ liệu về số vaccine đã tiêm [Cật Nhật Mới]
-
-```js
-// in ra thông tin tổng số vaccine đã tiêm trên thế giới
-api.vaccine().then(console.log)
-
-// in ra thông tin tổng số vaccine của một quốc gia
-api.coverage({country: 'vietnam'}).then(console.log)
-```
