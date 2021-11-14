@@ -31,7 +31,7 @@
     "declaration": "rm -f index.d.ts && tsc",
     "test": "mocha ./index.spec.js --exit --t 90000"
   },
-  "author": "puf17640 & DiozVN",
+  "author": "DiozVN",
   "license": "WTFPL",
   "types": "./index.d.ts"
 }
