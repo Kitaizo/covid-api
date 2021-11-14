@@ -207,7 +207,7 @@ api.gov('austria').then(console.log)
 ```
 
 
-### Dữ liệu về số vaccine đã tiêm
+### Dữ liệu về số vaccine đã tiêm [Cật Nhật Mới]
 
 ```js
 // in ra thông tin tổng số vaccine đã tiêm trên thế giới
