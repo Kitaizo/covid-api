@@ -1,14 +1,14 @@
 <div align="center">
-	<h1>CovidVN</h1>
-	<h6>(covidvn api)</h6>
-	<strong> <i>Trình gói JavaScript cho <a href="https://disease.sh">CovidVN API</a></i></strong><br><br>
+	<h1>Covid19 VN</h1>
+	<h6>(covid19-vn api)</h6>
+	<strong> <i>Trình gói JavaScript cho <a href="https://disease.sh">Covid19-VN API</a></i></strong><br><br>
 
 ![GitHub top language](https://img.shields.io/github/languages/top/disease-sh/node-api)
-![Snyk Vulnerabilities for npm scoped package](https://img.shields.io/snyk/vulnerabilities/npm/covidvn)
-<!-- ![GitHub package.json version](https://img.shields.io/github/package-json/v/covidvn/node-api) -->
+![Snyk Vulnerabilities for npm scoped package](https://img.shields.io/snyk/vulnerabilities/npm/covid19-vn)
+<!-- ![GitHub package.json version](https://img.shields.io/github/package-json/v/covid19-vn/node-api) -->
 <!-- ![GitHub last commit](https://img.shields.io/github/last-commit/disease-sh/node-api)<br>
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/covidvn)
-![npm](https://img.shields.io/npm/dw/covidvn)<br>
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/covid19-vn)
+![npm](https://img.shields.io/npm/dw/covid19-vn)<br>
 ![GitHub issues](https://img.shields.io/github/issues-raw/disease-sh/node-api)
 ![License](https://img.shields.io/github/license/disease-sh/node-api) -->
 ![Profile visits](https://badges.pufler.dev/visits/disease-sh/node-api)
@@ -21,12 +21,12 @@
 
 ## Cài đặt
 
-[![NPM](https://nodei.co/npm/covidvn.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/covidvn)
+[![NPM](https://nodei.co/npm/covid19-vn.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/covid19-vn)
 
 Sử dụng NPM:
 
 ```bash
-npm i -s covidvn-api
+npm i -s covid19-vn
 ```
 
 ## Lưu ý
@@ -34,16 +34,16 @@ npm i -s covidvn-api
 <!-- Chỉ sử dụng package '@aero/centra'.<br> -->
 
 Tham số **allowNull** hiện có sẵn cho `all`, `countries`, `continents`, `states` và `gov` điểm cuối.<br>
-CovidVN-API sắp cật nhập sẽ thêm tham số `vaccine`
+Covid19-VN sắp cật nhập sẽ thêm tham số `vaccine`
 
 ## Cách dùng
 
-Tất cả các ví dụ được hiển thị đều sử dụng Promises nhưng cũng có thể chờ/không đồng bộ để tìm nạp dữ liệu bằng CovidVN-API.
+Tất cả các ví dụ được hiển thị đều sử dụng Promises nhưng cũng có thể chờ/không đồng bộ để tìm nạp dữ liệu bằng Covid19-VN API.
 
 ### Thêm vào project của bạn 
 
 ```js
-const api = require('convid-api');
+const api = require('covid19-vn');
 
 // Bạn có thể chọn URL nào để sử dụng, điều này sẽ không thay đổi hoạt động của API
 api.settings({
