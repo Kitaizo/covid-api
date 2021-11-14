@@ -31,9 +31,9 @@ npm i -s covidvn-api
 
 ## Lưu ý
 
-Chỉ sử dụng package '@aero/centra'.<br>
+<!-- Chỉ sử dụng package '@aero/centra'.<br> -->
 
-Tham số **allowNull** hiện có sẵn cho `all`, `countries`, `continents`, `states` và `gov` điểm cuối.
+Tham số **allowNull** hiện có sẵn cho `all`, `countries`, `continents`, `states` và `gov` điểm cuối.<br>
 CovidVN-API sắp cật nhập sẽ thêm tham số `vaccine`
 
 ## Cách dùng
